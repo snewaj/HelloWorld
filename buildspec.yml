@@ -8,3 +8,8 @@ phases:
     commands:
       - echo Build started on `date`
       - dotnet publish -c release -o ./build_output HelloWorld.csproj
+ artifacts:
+  files:
+    - HelloWorld/build_output/**/*
+       
+ 
