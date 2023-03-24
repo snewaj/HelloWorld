@@ -10,5 +10,5 @@ phases:
       - dotnet publish -c release -o ./build_output HelloWorld.csproj
 artifacts:
   files:
-    - HelloWorld/build_output/**/*
+    - HelloWorld/build_output
         
